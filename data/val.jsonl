@@ -1,0 +1,9 @@
+{"subject": "Staging login blocked", "body": "QA team fully blocked in staging; release rehearsal today afternoon.", "label": "Urgent"}
+{"subject": "Payment receipt format", "body": "Customer asked to include PO number in receipts. Please update by tomorrow.", "label": "Normal"}
+{"subject": "Product suggestion", "body": "Add keyboard shortcuts for power users. Nice to have.", "label": "Low"}
+{"subject": "Escalation: CDN cache issue", "body": "Images not loading for some users since morning; marketing launch today.", "label": "Urgent"}
+{"subject": "Clarify API rate limits", "body": "Need official limits for partner integration docs tomorrow.", "label": "Normal"}
+{"subject": "Newsletter signup page copy", "body": "Tiny copy change suggestion—no rush.", "label": "Low"}
+{"subject": "Critical client blocked by IP allowlist", "body": "Client can’t access admin due to firewall rules; meeting in 1 hour.", "label": "Urgent"}
+{"subject": "Staging bug: avatar upload", "body": "Fails on large files; not blocking release but needs fix in next sprint.", "label": "Normal"}
+{"subject": "Style tweak", "body": "Update button radius to 8px when convenient.", "label": "Low"}

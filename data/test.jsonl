@@ -1,0 +1,9 @@
+{"subject": "Login loop for multiple customers", "body": "Users bounce between SSO and app; cannot access dashboard now.", "label": "Urgent"}
+{"subject": "Export rows off by one", "body": "CSV export misses final row; please fix by tomorrow.", "label": "Normal"}
+{"subject": "Idea: quick actions menu", "body": "Add shortcuts for frequent tasks if possible. No timeline.", "label": "Low"}
+{"subject": "Data pipeline failed overnight", "body": "ETL job failed; reports show stale data; exec review at 3 PM.", "label": "Urgent"}
+{"subject": "Tooltip text truncation", "body": "Long tooltips cut off; minor issue for next release.", "label": "Normal"}
+{"subject": "Blog RSS feed request", "body": "Can we add an RSS feed when time permits?", "label": "Low"}
+{"subject": "Billing webhook not firing", "body": "Invoices not sent to ERP since 9AM; finance blocked.", "label": "Urgent"}
+{"subject": "Email template spacing", "body": "Minor spacing issue; please adjust tomorrow.", "label": "Normal"}
+{"subject": "Accessibility improvement idea", "body": "Consider higher contrast on secondary buttons. No rush.", "label": "Low"}

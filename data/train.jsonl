@@ -1,0 +1,24 @@
+{"subject": "Checkout down for multiple customers", "body": "Payments failing with 3DS timeout. Need workaround today; revenue impacted.", "label": "Urgent"}
+{"subject": "Production API outage", "body": "The /auth endpoint returns 500 for all clients. Incident started 10:15 AM. Please fix ASAP.", "label": "Urgent"}
+{"subject": "Security incident: possible credential leak", "body": "User reported credentials in a public repo. Need immediate triage and rotate keys.", "label": "Urgent"}
+{"subject": "VIP escalation: cannot access reports", "body": "Executive team blocked on monthly finance report export. Meeting in 2 hours.", "label": "Urgent"}
+{"subject": "Order processing stuck", "body": "Queue not moving since morning; orders not shipped; SLA breach in 3 hours.", "label": "Urgent"}
+{"subject": "SSO failure for enterprise client", "body": "SAML login failing for Acme Corp; all users blocked now.", "label": "Urgent"}
+{"subject": "Data loss risk", "body": "Backup job failed for 2 nights. Need confirmation of latest restore point today.", "label": "Urgent"}
+{"subject": "Email delivery broken", "body": "Transactional emails not sent since last deploy; password resets failing right now.", "label": "Urgent"}
+{"subject": "User cannot reset password", "body": "After reset link, login still fails. Please investigate and update by tomorrow.", "label": "Normal"}
+{"subject": "Bug: filters not persisted", "body": "Dashboard filter resets after refresh. Can we fix in next sprint? Update by EOD.", "label": "Normal"}
+{"subject": "Mobile app crash report", "body": "Crash on profile edit for Android 13. Need fix in next release cycle.", "label": "Normal"}
+{"subject": "Invoice total mismatch", "body": "Tax rounding off by 1 cent in some cases. Please analyze and respond tomorrow.", "label": "Normal"}
+{"subject": "CSV import partially failing", "body": "Some rows rejected with validation error. Provide guidance by EOD.", "label": "Normal"}
+{"subject": "Slow query in analytics", "body": "Report takes ~30s to load. Can you optimize? Target next patch.", "label": "Normal"}
+{"subject": "Permission issue for editors", "body": "Editors can’t archive posts. Not blocking, but needs fix soon.", "label": "Normal"}
+{"subject": "Webhook retry policy clarification", "body": "Customer needs details on retry backoff. Please document by tomorrow.", "label": "Normal"}
+{"subject": "Feature request: PDF export", "body": "Would be great to export dashboard to PDF when time allows. No rush.", "label": "Low"}
+{"subject": "UI enhancement idea", "body": "Consider a dark mode toggle in settings. Nice to have.", "label": "Low"}
+{"subject": "Weekly newsletter", "body": "Sharing latest product updates. FYI only.", "label": "Low"}
+{"subject": "Docs improvement", "body": "Suggest adding screenshots to onboarding guide. Whenever possible.", "label": "Low"}
+{"subject": "NPS follow-up", "body": "Low priority: can we add a comment box to the survey next quarter?", "label": "Low"}
+{"subject": "Localization suggestion", "body": "Minor translation tweak for French strings; not urgent.", "label": "Low"}
+{"subject": "Analytics idea", "body": "Could we add cohort retention view sometime this year?", "label": "Low"}
+{"subject": "Design polish", "body": "Increase whitespace on settings page when convenient.", "label": "Low"}
