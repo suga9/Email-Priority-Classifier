@@ -10,8 +10,18 @@ __pycache__/
 backend/.env
 models/
 *.sqlite
-# Node/JS (if any)
+*.log
+
+# Node/JS
 node_modules/
 
-# Misc
-*.log
+# Archives & big binaries
+*.zip
+*.tar
+*.gz
+*.xz
+*.7z
+*.bin
+*.pt
+*.onnx
+*.safetensors
