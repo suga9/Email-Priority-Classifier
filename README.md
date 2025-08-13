@@ -45,3 +45,4 @@ See `sample_data/sample_emails.csv`.
 - Zero-shot gets you a strong **MVP** without labeling a dataset. For better accuracy, fine-tune on a small labeled set later.
 - Focus evaluation on the **Urgent** class (precision/recall/F1).
 # Email-Priority-Assistant
+# Email-Priority-Assistant
