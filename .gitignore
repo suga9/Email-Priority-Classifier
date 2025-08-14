@@ -15,7 +15,7 @@ models/
 # Node/JS
 node_modules/
 
-# Archives & big binaries
+# Archives & large binaries
 *.zip
 *.tar
 *.gz
