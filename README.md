@@ -111,13 +111,13 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 
 Sanity check:
 curl -s http://127.0.0.1:8000/health
-# -> {"status":"ok"}
+ -> {"status":"ok"}
 
 curl -s -X POST http://127.0.0.1:8000/api/classify \
   -H 'Content-Type: application/json' \
   -d '{"subject":"Feature request: PDF export (no rush)","body":"Nice to have; whenever possible.","tone":"friendly"}' \
   | python -m json.tool
-# Expect: urgency + "reply_source":"llm" and a bespoke reply
+ Expect: urgency + "reply_source":"llm" and a bespoke reply
 
 6.5 Run the Streamlit UI (Terminal B)
 
@@ -234,6 +234,10 @@ Open an email in Gmail → Add-on → Classify & Draft.
 
 
 
+<img width="1120" height="727" alt="Screenshot 2025-08-12 at 8 59 22 PM" src="https://github.com/user-attachments/assets/81c63b44-d2f1-4282-aef2-65af7db822a9" />
 
+<img width="1191" height="778" alt="Screenshot 2025-08-14 at 2 25 25 PM" src="https://github.com/user-attachments/assets/d2655901-265d-40fc-a806-11e799faf052" />
 
+<img width="1436" height="792" alt="Screenshot 2025-08-14 at 2 25 37 PM" src="https://github.com/user-attachments/assets/affc50df-a070-4953-b467-99431daa7813" />
 
+<img width="1350" height="528" alt="Screenshot 2025-08-14 at 2 34 26 PM" src="https://github.com/user-attachments/assets/60d6a802-fef5-4985-984c-c370ea31352e" />
