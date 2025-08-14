@@ -18,15 +18,8 @@ Exposes a FastAPI backend that powers:
 The assistant combines a lightweight classifier (Hugging Face pipeline) with a short intent summary and then prompts an LLM to draft a concise, context-aware response. Greetings are personalized from sender name/email; replies include an auto ticket ID and a next-update time based on urgency.
 
 ## 2) Architecture
-┌─────────────────────┐      HTTP/JSON       ┌────────────────────────────┐
-│  Streamlit Frontend │  ─────────────────▶  │        FastAPI Backend      │
-│  (local or cloud)   │                      │  - Urgency classification   │
-└─────────────────────┘                      │  - Intent summarization     │
-                                             │  - LLM reply generation     │
-┌─────────────────────┐      HTTPS           └────────────────────────────┘
-│ Gmail Add-on (UI)   │  ─────────────────▶      ▲                 ▲
-│ Apps Script (Code.gs│                       HF models         LLM API
-└─────────────────────┘
+
+<img width="633" height="221" alt="Screenshot 2025-08-14 at 2 45 48 PM" src="https://github.com/user-attachments/assets/00ff6e5c-6eaf-4f48-9bab-4c245e9c752f" />
 
 
 Key components
