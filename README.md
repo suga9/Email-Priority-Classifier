@@ -51,7 +51,7 @@ Optional: ngrok (for Gmail Add-on testing against local backend)
 
 One LLM API key (OpenAI shown in examples)
 
-## 5) Repository Layou Demo.
+## 5) Repository Layout Demo.
 
 
 email-priority-classifier/
@@ -69,6 +69,7 @@ email-priority-classifier/
 ├─ 
 └─ .gitignore
 
+<img width="465" height="876" alt="Screenshot 2025-08-14 at 2 41 19 PM" src="https://github.com/user-attachments/assets/d71cac0c-fd32-4c2a-93a4-d4c217cb57f7" />
 
 ## 6) Setup & Local Run
    
@@ -96,10 +97,11 @@ OPENAI_MODEL=gpt-4o-mini
 # optional
 DEFAULT_TZ=America/Toronto
 MODEL_DIR=models/email-priority-clf
-# API_KEY=change-me      # uncomment to require 'X-API-Key' in requests
+
+API_KEY=change-me      
 
 
-<img width="465" height="876" alt="Screenshot 2025-08-14 at 2 41 19 PM" src="https://github.com/user-attachments/assets/d71cac0c-fd32-4c2a-93a4-d4c217cb57f7" />
+
 
 6.4 Start the backend (Terminal A)
 
